@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: auto;
+  font-weight: 100;
+  font-display: swap;
+  src: local("Noto Sans JP"),
+  url(~assets/fonts/notosans/NotoSansJP-Thin.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: auto;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Noto Sans JP"),
+  url(~assets/fonts/notosans/NotoSansJP-Light.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: auto;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Noto Sans JP"),
+  url(~assets/fonts/notosans/NotoSansJP-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: auto;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Noto Sans JP"),
+  url(~assets/fonts/notosans/NotoSansJP-Medium.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: auto;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Noto Sans JP"),
+  url(~assets/fonts/notosans/NotoSansJP-Bold.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: auto;
+  font-weight: 900;
+  font-display: swap;
+  src: local("Noto Sans JP"),
+  url(~assets/fonts/notosans/NotoSansJP-Black.otf) format("truetype");
+}
+
+
+
+
+html, body {
+  font-family: "Noto Sans JP", serif;
+  background-color: #fafafa;
+}

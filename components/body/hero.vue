@@ -114,9 +114,6 @@ export default {
   border-radius: 1.5rem;
 }
 
-.reduce-margin {
-  margin-top: -2.5rem;
-}
 
 .is-wide-tracking {
   line-height: 2.75rem;
