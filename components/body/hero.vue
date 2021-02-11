@@ -11,7 +11,7 @@
           <div class="column is-one-quarter"></div>
           <div class="column">
             <div>
-            <span class="speech-bubble title has-text-weight-bold mt-4 is-pulled-right is-wide-tracking has-text-black is-size-3">
+            <span class="speech-bubble tracking-tighter title has-text-weight-bold mt-4 is-pulled-right is-wide-tracking is-size-4-tablet is-size-5-mobile is-size-3-widescreen">
               Dogecoin is an open-source peer-to-peer digital currency, favored by Shiba Inus worldwide.</span>
               </div>
           </div>
@@ -31,24 +31,25 @@
            <div class="column">
 
             <p class="block"></p>
-            <p class="pb-4 is-size-7 has-text-grey has-text-weight-bold">Start using dogecoin today:</p>
+            <p class="pb-4 is-size-6 has-opacity has-text-weight-bold float-right">Start using Dogecoin today:</p>
 
            <div class="columns">
 
                <div class="column">
-                 <button class="button">
+                 <a href="https://www.coinbase.com/join/forest_w" class="button is-rounded button-large-padding">
                    <span class="icon">
-                    <i class="fab fa-github"></i>
+                    <img src="/coinbase_icon.svg" height="auto" alt="">&nbsp;
                    </span>
-                   <span class="is-block is-size-7 has-text-weight-bold">Download</span>
-                 </button>
+                   <span class="is-block is-size-7 has-text-weight-bold">
+                     Earn crypto <span class="coinbase-promo">up to $100</span></span>
+                 </a>
 
-                 <button class="button">
+                 <a href="https://dogecoin.ogn.app" class="button is-rounded button-large-padding">
                    <span class="icon">
-                    <i class="fab fa-github"></i>
+                    <i class="fas fa-store-alt"></i>
                    </span>
-                   <span class="is-block is-size-7 has-text-weight-bold">Purchase</span>
-                 </button>
+                   <span class="is-block is-size-7 has-text-weight-bold">Buy Merchandise</span>
+                 </a>
 
                </div>
 
@@ -89,12 +90,30 @@ export default {
 
 <style scoped>
 
+.tracking-tighter {
+  letter-spacing: -2.25px;
+  color: #4a4a4a;
+}
+
 .dogedog {
   transform: scaleX(-1);
   float: left;
   margin-top: -70px;
   margin-bottom: -80px;
 }
+
+.coinbase-promo {
+  background-color: #0cae69;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 2.5px;
+
+ }
+
+.float-right {
+  margin-left: 4rem;
+}
+
 
 .speech-bubble {
   padding: 1.5rem 0 1.5rem 1rem;
@@ -112,6 +131,14 @@ export default {
 
 .is-rounded {
   border-radius: 1.5rem;
+}
+
+.has-opacity {
+  opacity: 65%;
+}
+
+.button-large-padding {
+  padding: 1.25rem 1.5rem 1.25rem 1.5rem;
 }
 
 
