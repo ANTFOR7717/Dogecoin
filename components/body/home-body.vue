@@ -52,7 +52,7 @@
     </div>
     <div class="column">
 
-      <iframe width="375px" height="600px" src="https://widget.changelly.com?from=ltc%2Cbtc%2Ceth&to=doge&amount=1.272&address=&fromDefault=ltc&toDefault=doge&theme=default&merchant_id=fhbf7e5w7h8xqpux&payment_id=&v=3">Can't load widget</iframe>
+      <iframe width="370px" height="600px" src="https://widget.changelly.com?from=ltc%2Cbtc%2Ceth&to=doge&amount=1.272&address=&fromDefault=ltc&toDefault=doge&theme=default&merchant_id=fhbf7e5w7h8xqpux&payment_id=&v=3">Can't load widget</iframe>
 
     </div>
 
@@ -79,10 +79,6 @@ export default {
 }
 .is-size-9 {
   font-size: 1.5rem;
-}
-
-.height-holder {
-
 }
 
 .button-large-padding {
