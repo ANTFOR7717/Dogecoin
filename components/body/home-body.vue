@@ -29,7 +29,7 @@
           You can also use Coinbase after signing up and get rewarded with over <b>$100 in crypto!</b>
         </p>
 
-        <a href="https://changelly.com/static/payment-button-widget/index.html?paymentButtonTheme=default&buttonTextId=003&widgetLink=https%3A%2F%2Fwidget.changelly.com%3Ffrom%3Dusd%26to%3Dltc%252Ceth%252Cbtc%26amount%3D250%26address%3D%26fromDefault%3Dusd%26toDefault%3Dltc%26theme%3Ddefault%26merchant_id%3Dfhbf7e5w7h8xqpux%26payment_id%3D%26v%3D3&isPopUp=false"
+        <a href="https://widget.changelly.com/?from=usd&to=ltc%2Ceth%2Cbtc&amount=250&address=&fromDefault=usd&toDefault=ltc&theme=default&merchant_id=fhbf7e5w7h8xqpux&payment_id=&v=3"
            class="block button button-large-padding is-rounded is-white has-text-weight-semibold">
         <span class="icon">
           <img  src="/changelly-icon.png" alt="" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
