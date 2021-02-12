@@ -33,12 +33,12 @@
            <div class="column">
 
             <p class="block"></p>
-            <p class="pb-4 is-size-6 has-opacity has-text-weight-bold float-right">Start using Dogecoin today:</p>
+            <p class="pb-4 is-size-6 has-text-weight-bold">Start using Dogecoin today:</p>
 
            <div class="columns">
 
                <div class="column">
-                 <a href="https://www.coinbase.com/join/forest_w" class="button is-rounded button-large-padding">
+                 <a href="https://www.coinbase.com/join/forest_w" class="button block is-rounded button-large-padding">
                    <span class="icon">
                     <img src="/coinbase_icon.svg" height="auto" alt="">&nbsp;&nbsp;&nbsp;
                    </span>
@@ -46,7 +46,7 @@
                      <span class="is-size-6">Earn crypto</span> <span class="coinbase-promo">up to $100</span></span>
                  </a>
 
-                 <a href="https://dogecoin.ogn.app" class="button is-rounded button-large-padding">
+                 <a href="https://dogecoin.ogn.app" class="button block is-rounded button-large-padding">
                    <span class="icon">
                     <img src="/storefront-icon.png" alt="" height="100">&nbsp;&nbsp;&nbsp;
                    </span>
@@ -90,7 +90,7 @@
 
             <div class="is-justify-content-center">
 
-            <p class="block is-size-6 mt-5 has-opacity has-text-weight-bold">Start using Dogecoin today:</p>
+            <p class="block is-size-6 mt-5 has-text-weight-bold">Start using Dogecoin today:</p>
 
             <a href="https://www.coinbase.com/join/forest_w" class="button block is-rounded button-large-padding">
                    <span class="icon">
@@ -153,9 +153,6 @@ export default {
 
  }
 
-.float-right {
-  margin-left: 4rem;
-}
 
 .speech-bubble-mobile {
   padding: 1.5rem 0 1.5rem 1rem;
@@ -183,14 +180,10 @@ export default {
   border-radius: 1.5rem;
 }
 
-.has-opacity {
-  opacity: 65%;
-}
 
 .button-large-padding {
   padding: 1.25rem 1.5rem 1.25rem 1.5rem;
 }
-
 
 .is-wide-tracking {
   line-height: 2.75rem;
