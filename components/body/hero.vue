@@ -38,17 +38,17 @@
                <div class="column">
                  <a href="https://www.coinbase.com/join/forest_w" class="button is-rounded button-large-padding">
                    <span class="icon">
-                    <img src="/coinbase_icon.svg" height="auto" alt="">&nbsp;
+                    <img src="/coinbase_icon.svg" height="auto" alt="">&nbsp;&nbsp;&nbsp;&nbsp;
                    </span>
                    <span class="is-block is-size-7 has-text-weight-bold">
-                     Earn crypto <span class="coinbase-promo">up to $100</span></span>
+                     <span class="is-size-6">Earn crypto</span> <span class="coinbase-promo">up to $100</span></span>
                  </a>
 
                  <a href="https://dogecoin.ogn.app" class="button is-rounded button-large-padding">
                    <span class="icon">
-                    <i class="fas fa-store-alt"></i>
+                    <img src="/storefront-icon.png" alt="" height="100">&nbsp;&nbsp;&nbsp;
                    </span>
-                   <span class="is-block is-size-7 has-text-weight-bold">Buy Merchandise</span>
+                   <span class="is-block is-size-6 has-text-weight-bold">Buy Merchandise</span>
                  </a>
 
                </div>

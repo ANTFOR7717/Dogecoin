@@ -8,7 +8,7 @@
       If you don't have a wallet, download one below.</p>
       <a href="https://apps.apple.com/us/app/exodus-mobile/id1414384820" class="block button button-large-padding is-rounded is-white has-text-weight-semibold">
         <span class="icon">
-          <i class="fab fa-apple"></i>
+          <img src="/apple-icon.svg" alt="" height="auto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
         <span class="has-text-weight-bold has-text-black is-size-6">
           iPhone Wallet
@@ -16,7 +16,7 @@
       </a>
         <a href="https://play.google.com/store/apps/details?id=exodusmovement.exodus" class="block button has-color-green is-white button-large-padding is-rounded has-text-weight-semibold">
           <span class="icon">
-            <i class="fab fa-android"></i>
+            <img src="/android-icon.svg" alt="" height="auto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
           <span class="has-text-weight-bold has-text-black is-size-6">
             Android Wallet
@@ -32,7 +32,7 @@
         <a href="https://changelly.com/static/payment-button-widget/index.html?paymentButtonTheme=default&buttonTextId=003&widgetLink=https%3A%2F%2Fwidget.changelly.com%3Ffrom%3Dusd%26to%3Dltc%252Ceth%252Cbtc%26amount%3D250%26address%3D%26fromDefault%3Dusd%26toDefault%3Dltc%26theme%3Ddefault%26merchant_id%3Dfhbf7e5w7h8xqpux%26payment_id%3D%26v%3D3&isPopUp=false"
            class="block button button-large-padding is-rounded is-white has-text-weight-semibold">
         <span class="icon">
-          <img  src="/changelly-icon.png" alt="" height="auto">&nbsp;&nbsp;&nbsp;&nbsp;
+          <img  src="/changelly-icon.png" alt="" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
           <span class="has-text-weight-bold has-text-black is-size-6">
           Exchange Instantly
@@ -40,7 +40,7 @@
         </a>
         <a href="https://www.coinbase.com/join/forest_w" class="block button button-large-padding is-rounded has-color-blue has-text-weight-semibold">
         <span class="icon">
-          <img src="/coinbase_icon.svg" alt="" height="auto">
+          <img src="/coinbase_icon.svg" class="has-white-background" alt="" height="auto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
           <span class="has-text-weight-bold has-text-white is-size-6">
             Signup
@@ -82,7 +82,7 @@ export default {
 }
 
 .height-holder {
-  height: 0rem;
+
 }
 
 .button-large-padding {
@@ -103,6 +103,11 @@ export default {
 
 .has-color-blue {
   background-color: #1552f0;
+}
+
+.has-white-background {
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 
