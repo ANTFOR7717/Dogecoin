@@ -43,7 +43,7 @@
                     <img src="/coinbase_icon.svg" height="auto" alt="">&nbsp;&nbsp;&nbsp;
                    </span>
                    <span class="is-block is-size-7 has-text-weight-bold">
-                     <span class="is-size-6">Earn crypto</span> <span class="coinbase-promo">up to $100</span></span>
+                     <span class="is-size-6">Earn crypto</span> <span class="coinbase-promo">get $40+</span></span>
                  </a>
 
                  <a href="https://dogecoin.ogn.app" class="button block is-rounded button-large-padding">
@@ -97,7 +97,7 @@
                     <img src="/coinbase_icon.svg" height="auto" alt="">&nbsp;&nbsp;&nbsp;
                    </span>
               <span class="is-block is-size-7 has-text-weight-bold">
-                     <span class="is-size-6">Earn crypto</span> <span class="coinbase-promo">up to $100</span></span>
+                     <span class="is-size-6">Earn crypto</span> <span class="coinbase-promo">get $40+</span></span>
             </a>
 
             <a href="https://dogecoin.ogn.app" class="button block is-rounded button-large-padding">
@@ -146,10 +146,11 @@ export default {
 }
 
 .coinbase-promo {
-  background-color: #0cae69;
+  background-color: #08b168;
   color: white;
   padding: 5px 5px 5px 5px;
-  border-radius: 2.5px;
+  border-radius: 2px;
+
 
  }
 
