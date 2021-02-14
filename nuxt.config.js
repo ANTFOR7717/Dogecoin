@@ -1,4 +1,7 @@
 export default {
+  googleAnalytics: {
+    id: 'UA-189720876-1'
+  },
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
 
@@ -18,6 +21,7 @@ export default {
     ]
   },
 
+
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     { src: '~/assets/main.scss', lang: 'scss' },
@@ -33,6 +37,7 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
