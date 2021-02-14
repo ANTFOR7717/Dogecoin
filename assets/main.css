@@ -1,3 +1,5 @@
+
+/*
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: auto;
@@ -51,11 +53,12 @@
   src: local("Noto Sans JP"),
   url(~assets/fonts/notosans/NotoSansJP-Black.otf) format("truetype");
 }
+*/
 
 
 
 
 html, body {
-  font-family: "Noto Sans JP", serif;
+  font-family: 'Noto Sans JP', sans-serif;
   background-color: #fafafa;
 }
